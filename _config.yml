@@ -16,7 +16,7 @@ author:
     The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
     meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
   username: erodri17# general username
-  github: <a href="https://github.com/erodri17">@github</a># github username
+  github: <a href="https://github.com/erodri17" target="_blank" rel="noopener">@github</a> # github username
   twitter: twitter_username # twitter username
   facebook: https://www.facebook.com/elmer.rodriguez.792/ # facebook username
   email: elmer.rodriguez6@gmail.com # email adress
