@@ -1,7 +1,7 @@
 # @Author: elmerrodriguez
 # @Date:   2021-05-27T09:22:49-04:00
 # @Last modified by:   elmerrodriguez
-# @Last modified time: 2021-09-27T23:28:38-04:00
+# @Last modified time: 2021-09-27T23:32:36-04:00
 
 
 
@@ -27,7 +27,7 @@ author:
   twitter: twitter_username # twitter username
   facebook: https://www.facebook.com/elmer.rodriguez.792/ # facebook username
   email: elmer.rodriguez6@gmail.com # email adress
-  avatar: /assets/img/elmeravatar397.jpeg # change with your own avatar
+  avatar: /assets/img/elmeravatar.jpeg # change with your own avatar
 
 # URL settings
 url: "https://klise.now.sh" #
