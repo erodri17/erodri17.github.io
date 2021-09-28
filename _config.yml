@@ -1,26 +1,33 @@
+# @Author: elmerrodriguez
+# @Date:   2021-05-27T09:22:49-04:00
+# @Last modified by:   elmerrodriguez
+# @Last modified time: 2021-09-27T23:12:13-04:00
+
+
+
 # Site settings
 title: Elmer's Personal Blog # site title
 description: > # site description
-  He's writing in Bahasa about web technology and experience as a journal 
+  He's writing in Bahasa about web technology and experience as a journal
   for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Eastern # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
+repo: https://erodri17.github.io/ # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Elmer Rodriguez # author name
   bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
+    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog,
     meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
   username: erodri17# general username
   github: <a href="https://github.com/erodri17" target="_blank" rel="noopener">@github</a> # github username
   twitter: twitter_username # twitter username
   facebook: https://www.facebook.com/elmer.rodriguez.792/ # facebook username
   email: elmer.rodriguez6@gmail.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/elmer_profile.jpeg # change with your own avatar
 
 # URL settings
 url: "https://klise.now.sh" #
