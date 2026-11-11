@@ -1,83 +1,43 @@
 # Site settings
-title: Elmer Rodriguez # site title
-description: > # site description
+# Restart `jekyll serve` after changing this file.
+
+title: Elmer Rodriguez
+description: >-
   Elmer Rodriguez. Operations automation, PowerShell tooling and
   clear process documentation.
-lang: en-US # default lang
-timezone: America/New_York # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/erodri17/erodri17.github.io # site repo [optional]
-mode: dark # default theme "dark" | "light"
-
-# Profile settings
-author:
-  name: Elmer Rodriguez # author name
-  bio: >- # tell to the world
-    Operations automation and PowerShell tooling.
-    I build small tools that make routine work faster and more reliable.
-  username: erodri17 # general username
-  github: erodri17 # github username
-  twitter: # twitter username, leave blank if none
-  facebook: https://www.facebook.com/elmer.rodriguez.792/ # facebook username
-  email: elmer.rodriguez6@gmail.com # email adress
-  avatar: /assets/img/elmeravatar.jpeg # change with your own avatar
-
-# URL settings
+lang: en-US
+timezone: America/New_York
 url: "https://erodri17.github.io"
-baseurl:
+baseurl: ""
 permalink: /:title/
-google_analytics: # leave it blank if not wish
-fb_appid:
+image: /assets/img/elmeravatar397.jpeg # used when the site is shared
 
-# Collection setting
-collections:
-  posts:
-    output: true
+# Profile shown at the top of the home page
+author:
+  name: Elmer Rodriguez
+  headline: Operations automation and PowerShell tooling
+  github: erodri17
+  avatar: /assets/img/elmeravatar397.jpeg
 
-# Markdown settings
+# Number of posts listed on the home page
+number_of_posts: 5
+
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
 
-# Default front matter
 defaults:
   - scope:
       path: ""
+      type: posts
     values:
       layout: post
-      comments: false
 
-# Jekyll Compose default front matter
-jekyll_compose:
-  post_default_front_matter:
-    modified:
-    tags: []
-    description:
-  draft_default_front_matter:
-    modified:
-    tags: []
-    description:
-
-# Homepage limit posts
-number_of_posts: 5
-
-# Build settings
-# theme: klise
-sass:
-  style: compressed
-
-exclude:
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - node_modules
-  - vendor
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-postfiles
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

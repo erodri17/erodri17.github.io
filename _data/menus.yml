@@ -1,13 +1,10 @@
-- title: home
+- title: Home
   url: /
-  external: false
 
-- title: about
+- title: About
   url: /about/
-  external: false
 
 # Shown only once the site has at least one post.
-- title: writing
-  url: /archive/
-  external: false
+- title: Writing
+  url: /writing/
   needs_posts: true
