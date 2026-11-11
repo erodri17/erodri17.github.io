@@ -6,7 +6,7 @@ A plain Jekyll site with its own layouts and one stylesheet. No theme and no Jav
 
 ## Where things are
 
-- [`index.html`](index.html) is the home page: intro, what I work on, selected tools, contact.
+- [`index.html`](index.html) is the home page: intro, what I work on, contact.
 - [`about.md`](about.md) is the About page.
 - [`_config.yml`](_config.yml) holds the site title, headline and photo.
 - [`_data/menus.yml`](_data/menus.yml) holds the navigation.
