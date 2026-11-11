@@ -165,6 +165,7 @@
         {%- assign menus = site.data.menus -%}
         {%- if menus %}
           {%- for menu in menus -%} 
+            {%- if menu.needs_posts and site.posts.size == 0 -%}{%- continue -%}{%- endif -%}
             {%- if url == menu.url -%}
               <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
             {%- else -%} 
@@ -185,6 +186,7 @@
           <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">home</a>
           <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">about</a>
         {%- endif -%}
+        {%- if site.posts.size > 0 -%}
         <a class="menu-link rss" href="/feed.xml">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -205,6 +207,7 @@
             />
           </svg>
         </a>
+        {%- endif -%}
       </div>
     </div>
   </nav>
