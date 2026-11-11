@@ -1,10 +1,14 @@
 ---
-title: Archive
+title: Writing
 permalink: /archive/
 layout: page
-excerpt: All post.
+excerpt: Posts and write-ups by Elmer Rodriguez.
 comments: false
 ---
+
+{%- if site.posts.size == 0 -%}
+<p>Nothing published yet.</p>
+{%- endif -%}
 
 <div class="search-article">
   <label for="search-input" aria-hidden="true">

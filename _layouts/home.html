@@ -3,7 +3,12 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
+<div class="page-content home-content">
+  {{ content }}
+</div>
+
+{%- if site.posts.size > 0 -%}
+<h3 class="posts-item-note" aria-label="Recent writing">Recent writing</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
@@ -12,3 +17,4 @@ home: true
   </h4>
 </article>
 {%- endfor -%}
+{%- endif -%}
